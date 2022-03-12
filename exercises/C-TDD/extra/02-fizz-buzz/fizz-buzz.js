@@ -5,7 +5,7 @@ function fizzbuzz(n) {
   if (i % 3 === 0) output += 'Fizz';
   if (i % 5 === 0) output += 'Buzz';
   if (!output) output = i;
-  if (i<n) output += ' ';
+  if (i < n) output += ' ';
   answer += output
  }
  return answer
